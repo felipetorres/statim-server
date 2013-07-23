@@ -4,6 +4,21 @@
 
 <hibernate-configuration>
 	<session-factory>
+	    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	    <property name="connection_url">jdbc:mysql://b3d53a389e0a19:3a7fdd49@us-cdbr-east-04.cleardb.com/heroku_a94277ae97e6c1f</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.username">b3d53a389e0a19</property>
+		<property name="connection.password">3a7fdd49</property>
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+		
+		<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+		<property name="c3p0.acquire_increment">5</property>
+		<property name="c3p0.idle_test_period">100</property>
+		<property name="c3p0.max_size">20</property>
+		<property name="c3p0.min_size">3</property>
+		<property name="c3p0.timeout">25200</property>
+	    
 	    <mapping class="app.model.Device" />
 		<mapping class="app.model.Sender" />
 	</session-factory>

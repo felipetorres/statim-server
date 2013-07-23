@@ -16,9 +16,9 @@
 	</context-param>
 	
 	<context-param>
-  	    <param-name>br.com.caelum.vraptor.provider</param-name>
-  	    <param-value>br.com.caelum.vraptor.util.hibernate.HibernateCustomProvider</param-value>
-  	</context-param>
+		<param-name>br.com.caelum.vraptor.packages</param-name>
+		<param-value>br.com.caelum.vraptor.util.hibernate.extra</param-value>
+	</context-param>
 
 	<filter>
 		<filter-name>sitemesh</filter-name>
