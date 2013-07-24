@@ -147,7 +147,6 @@
       <attribute value="jar:file:/home/felipe/.m2/repository/com/thoughtworks/paranamer/paranamer/2.2/paranamer-2.2-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/postgresql/postgresql/8.3-603.jdbc4/postgresql-8.3-603.jdbc4.jar"/>
   <classpathentry kind="var" path="M2_REPO/net/sf/scannotation/scannotation/1.0.2/scannotation-1.0.2.jar" sourcepath="M2_REPO/net/sf/scannotation/scannotation/1.0.2/scannotation-1.0.2-sources.jar">
     <attributes>
       <attribute value="jar:file:/home/felipe/.m2/repository/net/sf/scannotation/scannotation/1.0.2/scannotation-1.0.2-javadoc.jar!/" name="javadoc_location"/>
