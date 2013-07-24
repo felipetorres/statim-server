@@ -5,10 +5,10 @@
 <hibernate-configuration>
 	<session-factory>
 	    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-	    <property name="connection.url">jdbc:mysql://localhost:3306/heroku_a94277ae97e6c1f</property>
+	    <property name="connection.url">jdbc:mysql://us-cdbr-east-04.cleardb.com/heroku_a94277ae97e6c1f?reconnect=true</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="connection.username">root</property>
-		<property name="connection.password"></property>
+		<property name="connection.username">b3d53a389e0a19</property>
+		<property name="connection.password">3a7fdd49</property>
 		<property name="show_sql">false</property>
 		<property name="format_sql">false</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
